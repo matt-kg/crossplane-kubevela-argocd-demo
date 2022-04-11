@@ -13,7 +13,7 @@ touch $TEAM_NAME-apps/dummy
 
 cp -R team-app-reqs $TEAM_NAME-app-reqs
 
-aws eks --region us-east-1 \
+aws eks --region us-west-2 \
     update-kubeconfig \
     --name $CLUSTER_NAME
 
